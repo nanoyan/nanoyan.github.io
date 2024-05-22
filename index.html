@@ -1,128 +1,126 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="de">
-<head>
-    <base href="https://www.iqb.hu-berlin.de/fdz/studies/TeKoP_ASCOT/" />
-    <link rel="schema.DC"      href="http://purl.org/dc/elements/1.1/" />
-    <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
-    <title>Technologiebasiertes kompetenzorientiertes Prüfen (TeKoP)</title>
-    <meta name="title"         content="Technologiebasiertes kompetenzorientiertes Prüfen (TeKoP)" />
-    <meta name="author" content="Wuttke, E., Seeber, S., Schumann, M., Meiners, H., Hartmann, P. & Turhan" />
-   
-    <meta name="description" content= "
-    Beschreibung der quantitativen Erprobungsstudie
-    Die hier vorgestellte quantitative Erprobungsstudie gilt als eine Teilstudie im Rahmen des
-    Forschungsprojekt TeKoP1 (technologiebasiertes kompetenzorientiertes Prüfen). Gegenstand der
-    Studie war die Evaluation von problemlösekompetenzorientierten und technologiebasierten Aufgaben
-    für zwei kaufmännische Ausbildungsberufe (Industriekaufleute und Kaufleute für Büromanagement).2
-    Das vorrangige Ziel lag neben der Prüfung der Aufgaben in der Itemparameterschätzung (Rasch
-    Modellierung). Neben der Aufgabenbearbeitung wurden weiter ausführliche Daten (u. a. Daten zur
-    Sozioökonomie, Daten zur Ausbildung, Daten zu bestehenden Kompetenzen, …) über einen
-    Fragebogen erhoben. Die Erhebungen wurden mit Berufsschulklassen an kaufmännischen Schulen
-    verschiedener Standorte (Niedersachsen, Hessen, Baden-Württemberg, Nordrhein Westphalen) in
-    Deutschland durchgeführt. Es gab jeweils nur eine Erhebungszeitpunkt. Der Erhebungszeitraum liegt
-    zwischen Juni 2021 und September 2022." />
-    <meta name="contributor"  content="IQB – Institut zur Qualitätsentwicklung im Bildungswesen" />
-    <meta name="rights" content="Alle veröffentlichten Metadaten sind frei verfügbar unter den Creative Commons CC0 1.0 Universal Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de)." />
-    <meta name="date" content="2023">
-    <meta name="keywords" content="Problemlösekompetenz, berufliche Handlungskompetenz, kaufmännsiche Kompetenz"/>
-    <meta name="copyright" content="Forschungsdatenzentrum (FDZ) am Institut zur Qualitätsentwicklung im Bildungswesen (IQB) / Research Data Centre (FDZ) at the Institute for Educational Quality Improvement (IQB)" />
 
-    <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
-    <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
-    <meta name="DC.identifier"     content="https://doi.org/10.5159/IQB_TeKoP_v2" />
-    <meta name="DC.subject"       content="Problemlösekompetenz, berufliche Handlungskompetenz, kaufmännsiche Kompetenz" />
-    <meta name="DC.title" content="Technologiebasiertes kompetenzorientiertes Prüfen (TeKoP)" />
-    <meta name="DC.creator" content="Wuttke, E."/>
-    <meta name="DC.creator" content="Seeber, S."/>
-    <meta name="DC.creator" content="Schumann, M."/>
-    <meta name="DC.creator" content="Meiners, H."/>
-    <meta name="DC.creator" content="Hartmann, P."/>
-    <meta name="DC.creator" content="Turhan, L."/>
-    <meta name="DC.publisher" content="IQB" />
-    <meta name="DC.date" content="2023" scheme="DCTERMS.W3CDTF" />
-    <meta name="DC.type" content="Dataset" />
-    <meta name="DC.language" content="de" scheme="DCTERMS.RFC4646" />
-    <meta name="DCTERMS.license" scheme="DCTERMS.URI" content="https://creativecommons.org/licenses/by/4.0/" />
-    <meta name="DC.identifier" content="http://doi.org/10.5159/IQB_TeKoP_v2" scheme="DCTERMS.URI" />
-    <meta name="DC.rights" scheme="DCTERMS.URI" content="info:eu-repo/semantics/openAccess" />
-    <meta name="DC.format" content="text/tab-separated-values, 902 data points" />
-    <meta name="DC.relation" content="Wuttke, E., Seeber, S., Schumann, M., Meiners, H., Hartmann, P. & Turhan, L." />
-    
-    
-    <script type="application/ld+json">
-        {
-            "@context": "http://schema.org/",
-            "@id": "https://doi.org/10.5159/IQB_TeKoP_v2",
-            "@type": "Dataset",
-            "identifier": "https://doi.org/10.5159/IQB_TeKoP_v2",
-            "url": "https://doi.org/10.5159/IQB_TeKoP_v2",
-            "creator": {
-                "@id": "https://orcid.org/0000-0003-4208-8744",
-                "@type": "Person",
-                "name": "Prof. Dr. Eveline Wuttke",
-                "familyName": "Wuttke",
-                "givenName": "Eveline",
-                "identifier": "https://orcid.org/0000-0003-4208-8744",
-                "email": "wuttke@em.uni-frankfurt.de"
-            },
-            "name": "Technologiebasiertes kompetenzorientiertes Prüfen (TeKoP)",
-            "publisher": {
-                "@type": "Organization",
-                "name": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
-                "disambiguatingDescription": "Wissenschaftliches Institut, das die Länder in der Bundesrepublik Deutschland bei der Qualitätsentwicklung und Qualitätssicherung im allgemeinbildenden Schulsystem unterstützt.",
-                "url": "https://www.iqb.hu-berlin.de/"
-            },
-            "includedInDataCatalog": {
-                "@type": "DataCatalog",
-                "name": "FDZ am IQB",
-                "disambiguatingDescription": "Das FDZ ist Partner im Verbund Forschungsdaten Bildung (VerbundFDB), dessen Ziel der Aufbau der technologischen, organisatorischen und rechtlichen Infrastruktur ist.",
-                "url": "https://www.iqb.hu-berlin.de/fdz/studies/"
-            },
-            "description": "Erprobungsstudie: Auszubildende zu Industriekaufleuten (N=655) und Kaufleuten für Büromanagement (N=761) im zweiten oder dritten Ausbildungsjahr an kaufmännischen Schulen; Trainingsstudie: Ausbildungspersonal (N=158), davon Lehramtsstudierende/Referendar*innen (N=94) und Ausbilder*innen/Lehrkräfte (N=64)",
-            "abstract": "Das Projekt TeKoP hatte zum Ziel, Prüfungspersonal und Lehrkräfte für die Ausbildungsberufe Industriekaufleute und Kaufleute für Büromanagement mit einem Training in die Lage zu versetzen, selbst kompetenzorientierte und technologiebasierte Prüfungsaufgaben zu erstellen. Die Teilnehmenden wurden geschult, kompetenzorientierte und technologiebasierte Prüfungsaufgaben für Industriekaufleute zu erstellen und die Qualität der Aufgaben anhand von Gütekriterien zu überprüfen. Weiterhin wurde untersucht, ob die Teilnehmenden kompetenzorientierte und technologiebasierte Prüfungsaufgaben auch für den Beruf Kaufleute für Büromanagement erstellen können. Die entwickelten Aufgaben für beide Berufe wurden bei Auszubildenden erprobt und hinsichtlich ihrer diagnostischen Güte beurteilt.",
-            "temporalCoverage": "2020-01-01T00:00:00/2022-12-31T00:00:00",
-            "size": {
-                "@type": "QuantitativeValue",
-                "value": 1574.0,
-                "unitText": "data points"
-            },
-            "license": "https://creativecommons.org/licenses/by/4.0/",
-            "conditionsOfAccess": "unrestricted",
-            "isAccessibleForFree": true,
-            "inLanguage": "de",
-            "distribution": [
-                {
-                    "@type": "DataDownload",
-                    "encodingFormat": "text/html",
-                    "contentUrl": "https://www.iqb.hu-berlin.de/fdz/studies/TeKoP_ASCOT?format=html"
-                },
-                {
-                    "@type": "DataDownload",
-                    "encodingFormat": "text/tab-separated-values",
-                    "contentUrl": "https://www.iqb.hu-berlin.de/fdz/studies/TeKoP_ASCOT/TeKoP_Quantitati.sav"
-                }
-            ],
-            "headline": "Technologiebasiertes kompetenzorientiertes Prüfen (TeKoP)",
-            "datePublished": "2023-08-25T08:00:00+08:00",
-            "dateModified": "2024-08-25T09:20:00+08:00",
-            "author": [{
-                "@type": "Person",
-                "name": "Wuttke, E",
-                "url": "https://orcid.org/0000-0003-4208-8744"
-              },{
-                "@type": "Person",
-                "name": " Schumann, M.",
-                "url": "https://orcid.org/0000-0001-7900-5821"
-              }]
-        }
-    </script>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <base href="https://www.iqb.hu-berlin.de/fdz/studies/ProSach/" />
+
+
+    <meta charset="UTF-8">
+	<!-- Meta-tags-->
+	<meta name=author content="Forschungsdatenzentrum (FDZ) am Institut zur Qualitätsentwicklung im Bildungswesen (IQB) / Research Data Centre (FDZ) at the Institute for Educational Quality Improvement (IQB)" />
+	<meta name="keywords" content="Problemlösekompetenz, berufliche Handlungskompetenz, kaufmännsiche Kompetenz"/>
+	<meta name="title" content="Professionalisierungsmaßnahmen zur bedeutungsfokussierten Sprachförderung im Sachunterricht der Grundschule (ProSach)" />
+	<meta name="description" content="Das Projekt TeKoP hatte zum Ziel, Prüfungspersonal und Lehrkräfte für die Ausbildungsberufe Industriekaufleute und Kaufleute für Büromanagement mit einem Training in die Lage zu versetzen, selbst kompetenzorientierte und technologiebasierte Prüfungsaufgaben zu erstellen. Die Teilnehmenden wurden geschult, kompetenzorientierte und technologiebasierte Prüfungsaufgaben für Industriekaufleute zu erstellen und die Qualität der Aufgaben anhand von Gütekriterien zu überprüfen. Weiterhin wurde untersucht, ob die Teilnehmenden kompetenzorientierte und technologiebasierte Prüfungsaufgaben auch für den Beruf Kaufleute für Büromanagement erstellen können. Die entwickelten Aufgaben für beide Berufe wurden bei Auszubildenden erprobt und hinsichtlich ihrer diagnostischen Güte beurteilt.
+
+Im Detail: Gegenstand der Erprobungsstudie war die Evaluation von problemlösekompetenzorientierten und technologiebasierten Aufgaben für die zwei kaufmännische Ausbildungsberufe Industriekaufleute und Kaufleute für Büromanagement. Das vorrangige Ziel lag neben der Prüfung der Aufgaben in der Itemparameterschätzung (Rasch-Modellierung). Neben der Aufgabenbearbeitung wurden weitere Daten (u. a. zur Sozioökonomie, zur Ausbildung, zu bestehenden Kompetenzen) über einen Fragebogen erhoben. Die Erhebungen wurden mit Berufsschulklassen an kaufmännischen Schulen verschiedener Standorte in Deutschland durchgeführt.
+
+Gegenstand der Trainingsstudie war die Evaluation des zuvor entwickelten Trainings zur Förderung der problemlösekompetenzorientierten und technologiebasierten Aufgabenerstellung für berufliches/berufsschulisches Ausbildungspersonal. Das Ziel der Erhebung lag in der Bewertung der Wirksamkeit des eingesetzten Trainings auf den Wissens- und Kompetenzzuwachs im Verlauf des Trainings. Im Rahmen der Erhebung wurden Daten zur Sozioökonomie, zur Erfahrungen mit / der Einstellung zu Lernmanagementsystemen, zur Trainingserwartung, zu einem Wissenstest zur problemhaltigen Aufgabenmerkmalen und Gütekriterien, zur Selbsteinschätzung der Medienkompetenz sowie weitere Daten (u. a. Technologieaffinität und Teilnehmerreaktion) erhoben. (Projekt/IQB)" />
+	<meta name="date" content="2023-8-25"/>
+	<meta name="robots" content="index,follow"/>
+	<meta name="contributor"  content="Forschungsdatenzentrum (FDZ) am Institut zur Qualitätsentwicklung im Bildungswesen (IQB) / Research Data Centre (FDZ) at the Institute for Educational Quality Improvement (IQB)" />
+	<meta name="rights" content="Alle veröffentlichten Metadaten sind frei verfügbar unter den Creative Commons CC0 1.0 Universal Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de)." />
+	
+	<!--Dublin Core-->
+	<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+	<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+	<meta name="DC.format" scheme="DCTERMS.IMT" content="text/html" />
+	<meta name="DC.type" scheme="DCTERMS.DCMIType" content="Datensatz" />
+	<meta name="DC.language"  scheme="DCTERMS.DCMIType" content="Text" />
+	<meta name="DC.title" content="Professionalisierungsmaßnahmen zur bedeutungsfokussierten Sprachförderung im Sachunterricht der Grundschule (ProSach). " />
+	<meta name="DC.identifier" content="http://doi.org/10.5159/IQB_ProSach_v2" />
+	<meta name="DC.creator" content="Schumann Prof. Dr. Matthias,Seeber Prof. Dr. Susan,Wuttke Prof. Dr. Eveline" />
+	<meta name="DC.publisher" content="FDZ am IQB" />
+	<meta name="DCTERMS.license" scheme="DCTERMS.URI" content="https://creativecommons.org/publicdomain/zero/1.0/deed.de" />
+	<meta name="DC.date" content="2023"  scheme="DCTERMS.W3CTF" />
+	<meta name="DC.rights" scheme="DCTERMS.URI"  content="info:eu-repo/semantics/openAccess"/>
+	
+	<!--JSON-LD schema.org-->
+	<script type="application/ld+json">
+	        {
+	            "@context": "http://schema.org/",
+	            "@id": "http://doi.org/10.5159/IQB_ProSach_v2",
+	            "@type": "Dataset",
+	            "@identifier": "http://doi.org/10.5159/IQB_ProSach_v2",
+	            "url": "http://doi.org/10.5159/IQB_ProSach_v2",
+	            "creator": {
+	                "@type": "Organization",
+	                "url": "https://www.iqb.hu-berlin.de/fdz",
+	                "name": "Forschungsdatenzentrum (FDZ) am Institut zur Qualitätsentwicklung im Bildungswesen (IQB) / Research Data Centre (FDZ) at the Institute for Educational Quality Improvement (IQB)",
+	                "alternateName": "FDZ am IQB",
+	                "disambiguatingDescription": "Das FDZ ist Partner im Verbund Forschungsdaten Bildung (VerbundFDB), dessen Ziel der Aufbau der technologischen, organisatorischen und rechtlichen Infrastruktur ist."
+	            },
+	            "name": "Professionalisierungsmaßnahmen zur bedeutungsfokussierten Sprachförderung im Sachunterricht der Grundschule (ProSach)",
+	            "publisher": {
+	                "@type": "Organization",
+	                "image": "https://www.iqb.hu-berlin.de/system/img/logo_IQB.png",
+	                "url": "https://www.iqb.hu-berlin.de",
+	                "sameAs": "https://www.kmk.org/themen/qualitaetssicherung-in-schulen/iqb.html",
+	                "logo": "https://www.iqb.hu-berlin.de/system/img/logo_IQB.png",
+	                "name": "Institut zur Qualitätsentwicklung im Bildungswesen e.V",
+	                "alternateName": "IQB",
+	                "description": "Das Institut zur Qualitätsentwicklung im Bildungswesen (IQB) ist eine wissenschaftliche Einrichtung aller 16 Länder der Bundesrepublik Deutschland an der Humboldt-Universität zu Berlin und steht für die gemeinsamen Aktivitäten der Länder im Bereich der Qualitätssicherung und -entwicklung im allgemeinbildenden Schulsystem."
+	            },
+	            "includedInDataCatalog": {
+	                "@type": "DataCatalog",
+	                "url": "https://www.iqb.hu-berlin.de/fdz",
+	                "name": "Forschungsdatenzentrum (FDZ) am Institut zur Qualitätsentwicklung im Bildungswesen (IQB) / Research Data Centre (FDZ) at the Institute for Educational Quality Improvement (IQB)",
+	                "alternateName": "FDZ am IQB",
+	                "disambiguatingDescription": "Das FDZ ist Partner im Verbund Forschungsdaten Bildung (VerbundFDB), dessen Ziel der Aufbau der technologischen, organisatorischen und rechtlichen Infrastruktur ist."
+	            },
+	            "description": "Das Projekt TeKoP hatte zum Ziel, Prüfungspersonal und Lehrkräfte für die Ausbildungsberufe Industriekaufleute und Kaufleute für Büromanagement mit einem Training in die Lage zu versetzen, selbst kompetenzorientierte und technologiebasierte Prüfungsaufgaben zu erstellen. Die Teilnehmenden wurden geschult, kompetenzorientierte und technologiebasierte Prüfungsaufgaben für Industriekaufleute zu erstellen und die Qualität der Aufgaben anhand von Gütekriterien zu überprüfen. Weiterhin wurde untersucht, ob die Teilnehmenden kompetenzorientierte und technologiebasierte Prüfungsaufgaben auch für den Beruf Kaufleute für Büromanagement erstellen können. Die entwickelten Aufgaben für beide Berufe wurden bei Auszubildenden erprobt und hinsichtlich ihrer diagnostischen Güte beurteilt.
+
+Im Detail: Gegenstand der Erprobungsstudie war die Evaluation von problemlösekompetenzorientierten und technologiebasierten Aufgaben für die zwei kaufmännische Ausbildungsberufe Industriekaufleute und Kaufleute für Büromanagement. Das vorrangige Ziel lag neben der Prüfung der Aufgaben in der Itemparameterschätzung (Rasch-Modellierung). Neben der Aufgabenbearbeitung wurden weitere Daten (u. a. zur Sozioökonomie, zur Ausbildung, zu bestehenden Kompetenzen) über einen Fragebogen erhoben. Die Erhebungen wurden mit Berufsschulklassen an kaufmännischen Schulen verschiedener Standorte in Deutschland durchgeführt.
+
+Gegenstand der Trainingsstudie war die Evaluation des zuvor entwickelten Trainings zur Förderung der problemlösekompetenzorientierten und technologiebasierten Aufgabenerstellung für berufliches/berufsschulisches Ausbildungspersonal. Das Ziel der Erhebung lag in der Bewertung der Wirksamkeit des eingesetzten Trainings auf den Wissens- und Kompetenzzuwachs im Verlauf des Trainings. Im Rahmen der Erhebung wurden Daten zur Sozioökonomie, zur Erfahrungen mit / der Einstellung zu Lernmanagementsystemen, zur Trainingserwartung, zu einem Wissenstest zur problemhaltigen Aufgabenmerkmalen und Gütekriterien, zur Selbsteinschätzung der Medienkompetenz sowie weitere Daten (u. a. Technologieaffinität und Teilnehmerreaktion) erhoben. (Projekt/IQB)",
+	            "abstract": "Das Projekt TeKoP hatte zum Ziel, Prüfungspersonal und Lehrkräfte für die Ausbildungsberufe Industriekaufleute und Kaufleute für Büromanagement mit einem Training in die Lage zu versetzen, selbst kompetenzorientierte und technologiebasierte Prüfungsaufgaben zu erstellen. Die Teilnehmenden wurden geschult, kompetenzorientierte und technologiebasierte Prüfungsaufgaben für Industriekaufleute zu erstellen und die Qualität der Aufgaben anhand von Gütekriterien zu überprüfen. Weiterhin wurde untersucht, ob die Teilnehmenden kompetenzorientierte und technologiebasierte Prüfungsaufgaben auch für den Beruf Kaufleute für Büromanagement erstellen können. Die entwickelten Aufgaben für beide Berufe wurden bei Auszubildenden erprobt und hinsichtlich ihrer diagnostischen Güte beurteilt.",
+	            "license": "https://creativecommons.org/publicdomain/zero/1.0",
+	            "conditionsOfAccess": "unrestricted",
+	            "isAccessibleForFree": true,
+	            "inLanguage": "de",
+	            "distribution": [
+	                {
+	                    "@type": "DataDownload",
+	                    "encodingFormat": "text/pdf",
+	                    "contentUrl": "https://www.iqb.hu-berlin.de/fdz/studies/TeKoP_ASCOT/Dokumentation_Tr.pdf"
+	                },
+	                {
+	                    "@type": "DataDownload",
+	                    "encodingFormat": "text/pdf",
+	                    "contentUrl": "//www.iqb.hu-berlin.de/fdz/studies/TeKoP_ASCOT/Dokumentation_Qu.pdf"
+	                },
+	                {
+	                    "@type": "DataDownload",
+	                    "encodingFormat": "text/tab-separated-values",
+	                    "contentUrl": "https://www.iqb.hu-berlin.de/fdz/studies/TeKoP_ASCOT/TeKoP_Quantitati.sav"
+	                }
+	                {
+	                    "@type": "DataDownload",
+	                    "encodingFormat": "text/tab-separated-values",
+	                    "contentUrl": "://www.iqb.huberlin.de/fdz/studies/TeKoP_ASCOT/TeKoP_Trainingss.sav"
+	                }
+	            ],
+	            "headline": "Technologiebasiertes kompetenzorientiertes Prüfen (TeKoP)",
+	            "datePublished": "2023-8-25T08:00:00+08:00",
+	            "dateModified": "2023-8-25T08:00:00+08:00",
+	            "author": [{
+	                "@type": "Person",
+	                "name": "Wuttke, E",
+	                "url": "https://orcid.org/0000-0003-4208-8744"
+	              },{
+	                "@type": "Person",
+	                "name": " Schumann, M.",
+	                "url": "https://orcid.org/0000-0001-7900-5821"
+	              }]
+	        }
+	</script>
+
 
     <!-- Dipl.-Ing. Andreas Fleck; conditions updated by Dan Barbulescu -->
     <meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport" />
     <!--End Dipl.-Ing. Andreas Fleck -->
 
 
-    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=jqueUTF-8" />
 
     <link rel="stylesheet" type="text/css" href="https://www.iqb.hu-berlin.de/system/om.css" />
     <link rel="stylesheet" type="text/css" href="https://www.iqb.hu-berlin.de/system/iqb.css" />
@@ -173,7 +171,7 @@
 
 
 
-    <title>IQB - Technologiebasiertes kompetenzorientiertes Prüfen (TeKoP)</title>
+    <title>IQB - Professionalisierungsmaßnahmen zur bedeutungsfokussierten Sprachförderung im Sachunterricht der Grundschule (ProSach)</title>
 
 
 
@@ -808,7 +806,7 @@
                     <ul class="subnavi lvl2">
 
                         <li class="active">
-                            <a href="/fdz/studies/TeKoP_ASCOT">TeKoP</a>
+                            <a href="/fdz/studies/ProSach">ProSach</a>
 
                         </li>
 
@@ -906,81 +904,85 @@
 
         <!-- _________________________________________________________________________ -->
         <div class="_column2" id="maincontent">
-            <h1>Technologiebasiertes kompetenzorientiertes Prüfen (TeKoP)</h1>
+            <h1>Professionalisierungsmaßnahmen zur bedeutungsfokussierten Sprachförderung im Sachunterricht der Grundschule (ProSach)</h1>
 
             <span></span>
 
 
 
+            <div class="sorry-no-english">
+                <p>Sie haben diese Studie mit einer veralteten DOI-Kennung aufgerufen. Die nachfolgenden Informationen beziehen sich auf die aktuelle Version.
+                    Sollten Sie Informationen zur älteren Version suchen oder diese älteren Daten anfordern wollen, wenden Sie sich bitte direkt an das FDZ mit Hinweis auf die DOI
+                    "10.5159/IQB_ProSach_v1"!</p>
 
+
+
+            </div>
 
 
 
             <p id="zurueckUebersicht">&nbsp;</p>
             <h3 class="tinymce">Inhaltsverzeichnis</h3>
             <p><a href="#Uebersicht">Projektbeschreibung</a></p>
-            <p><a href="#Leerdatensaetze">Leerdatens&auml;tze</a></p>
             <p><a href="#Dokumentation">Dokumentation</a></p>
+            <p><a href="#Weiterfuehrende Informationen">Weiterf&uuml;hrende Informationen</a></p>
             <p><a href="#Literatur">Literatur</a></p>
             <p id="Uebersicht">&nbsp;</p>
-            <h3 class="tinymce" style="text-align: right;" align="left"><a href="Datenzugang/SUF-Antrag/FormularSUFs" target="_blank">&gt; Scientific Use Files beantragen</a></h3>
             <table class="kz1s1" style="width: 100%" border="0">
                 <tbody>
                 <tr>
                     <th align="left">Datensatz veröffentlicht am</th>
-                    <td>25.08.2023</td>
+                    <td>11.07.2023</td>
+                </tr>
+                <tr>
+                    <th align="left">Version</th>
+                    <td>v2</td>
                 </tr>
                 <tr>
                     <th align="left">aktuelle Version verfügbar seit</th>
-                    <td>25.08.2023</td>
+                    <td>22.11.2023</td>
                 </tr>
                 <tr>
                     <th align="left">Erhebungszeitraum</th>
-                    <td>2020-2022</td>
+                    <td>2016-2018</td>
                 </tr>
                 <tr>
                     <th align="left">Stichprobe</th>
-                    <td>Erprobungsstudie:
-                        Auszubildende zu Industriekaufleuten (N=655) und Kaufleuten für Büromanagement (N=761) im zweiten oder dritten Ausbildungsjahr an kaufmännischen Schulen;
-
-                        Trainingsstudie:
-                        Ausbildungspersonal (N=158), davon Lehramtsstudierende/Referendar*innen (N=94) und Ausbilder*innen/Lehrkräfte (N=64)</td>
+                    <td>Schüler*innen der Jahrgangsstufen 3 und 4 (N=539);
+                        Eltern (N=427);
+                        Lehrkräfte (N=44)</td>
                 </tr>
                 <tr>
                     <th align="left">Erhebungseinheit</th>
-                    <td>Auszubildende<br/>Lehrkräfte</td>
+                    <td>Eltern<br/>Lehrkräfte<br/>Schüler*innen</td>
                 </tr>
                 <tr>
                     <th align="left">erfasste Kompetenzen</th>
-                    <td>Problemlösekompetenz, berufliche Handlungskompetenz, kaufmännsiche Kompetenz</td>
+                    <td>bildungssprachliche Kompetenzen (Fachwortschatz, allgemeiner bildungssprachlicher Wortschatz, Verständnis von Konnektoren), fachdidaktisches Wissen, Sprachförderung, motivational-emotionale Merkmale</td>
                 </tr>
                 <tr>
                     <th align="left">Region</th>
-                    <td>deutschlandweit, Baden-Württemberg, Bayern, Berlin, Brandenburg, Bremen, Hamburg, Hessen, Mecklenburg-Vorpommern, Niedersachsen, Nordrhein-Westfalen, Rheinland-Pfalz, Saarland, Sachsen, Sachsen-Anhalt, Schleswig-Holstein, Thüringen</td>
+                    <td>Berlin, Hessen</td>
                 </tr>
                 <tr>
                     <th align="left">Leitung</th>
-                    <td>Schumann, Prof. Dr. Matthias<br/>Seeber, Prof. Dr. Susan<br/>Wuttke, Prof. Dr. Eveline</td>
+                    <td>Hardy, Prof. Dr. Ilonca<br/>Henschel, Dr. Sofie<br/>Stanat, Prof. Dr. Petra</td>
                 </tr>
                 <tr>
                     <th align="left">Datengebende</th>
-                    <td>Schumann, Prof. Dr. Matthias<br/>Seeber, Prof. Dr. Susan<br/>Wuttke, Prof. Dr. Eveline</td>
+                    <td>Hardy, Prof. Dr. Ilonca<br/>Henschel, Dr. Sofie</td>
                 </tr>
                 <tr>
                     <th align="left">Auftraggeber / Mittelgeber</th>
-                    <td>Bundesministerium für Bildung und Forschung (BMBF), Bundesinstitut für Berufsbildung (BIBB)</td>
+                    <td>Bundesministerium für Bildung und Forschung (BMBF)</td>
                 </tr>
                 <tr>
                     <th align="left">Link zur Studie</th>
-                    <td>https://www.ascot-vet.net/ascot/de/ascot-projekte/tekop/tekop_node.html</td>
-                </tr>
-                <tr>
-                    <th align="left">Verwandte Studien</th>
-                    <td>CoBALIT (DOI: 10.5159/IQB_CoBALIT_v1), DomPL-IK (DOI: 10.5159/IQB_DomPL-IK_v1)</td>
+                    <td>https://www.iqb.hu-berlin.de/research/dm/ProSach, https://www.uni-frankfurt.de/65294715/ProSach</td>
                 </tr>
                 <tr>
                     <th align="left">Zitationsvorschlag</th>
-                    <td>Wuttke, E., Seeber, S., Schumann, M., Meiners, H., Hartmann, P. & Turhan, L. (2023) <em>Technologiebasiertes kompetenzorientiertes Prüfen (TeKoP)</em> (Version 1) [Datensatz]. Berlin: IQB – Institut zur Qualitätsentwicklung im Bildungswesen. http://doi.org/10.5159/IQB_TeKoP_v1</td>
+                    <td>Henschel, S., Hardy, I., Stanat, P., Heppt, B., Gabler, K., Hettmannsperger-Lippolt, R., Sontag, C. & Mannel, S. (2023). <em>Professionalisierungsmaßnahmen zur bedeutungsfokussierten Sprachförderung im Sachunterricht der Grundschule (ProSach)</em> (Version 2) [Datensatz]. Berlin: Institut zur Qualitätsentwicklung im Bildungswesen (IQB). http://doi.org/10.5159/IQB_ProSach_v2</td>
                 </tr>
                 <tr>
                     <th align="left">Datenrestriktion / Zugangshinweise</th>
@@ -991,42 +993,56 @@
 
             <p>&nbsp;</p>
             <h2>Projektbeschreibung</h2>
-            <p>Das Projekt TeKoP hatte zum Ziel, Prüfungspersonal und Lehrkräfte für die Ausbildungsberufe Industriekaufleute und Kaufleute für Büromanagement mit einem Training in die Lage zu versetzen, selbst kompetenzorientierte und technologiebasierte Prüfungsaufgaben zu erstellen. Die Teilnehmenden wurden geschult, kompetenzorientierte und technologiebasierte Prüfungsaufgaben für Industriekaufleute zu erstellen und die Qualität der Aufgaben anhand von Gütekriterien zu überprüfen. Weiterhin wurde untersucht, ob die Teilnehmenden kompetenzorientierte und technologiebasierte Prüfungsaufgaben auch für den Beruf Kaufleute für Büromanagement erstellen können. Die entwickelten Aufgaben für beide Berufe wurden bei Auszubildenden erprobt und hinsichtlich ihrer diagnostischen Güte beurteilt.</p>
-            <p></p>
-            <p>Im Detail: Gegenstand der Erprobungsstudie war die Evaluation von problemlösekompetenzorientierten und technologiebasierten Aufgaben für die zwei kaufmännische Ausbildungsberufe Industriekaufleute und Kaufleute für Büromanagement. Das vorrangige Ziel lag neben der Prüfung der Aufgaben in der Itemparameterschätzung (Rasch-Modellierung). Neben der Aufgabenbearbeitung wurden weitere Daten (u. a. zur Sozioökonomie, zur Ausbildung, zu bestehenden Kompetenzen) über einen Fragebogen erhoben. Die Erhebungen wurden mit Berufsschulklassen an kaufmännischen Schulen verschiedener Standorte in Deutschland durchgeführt.</p>
-            <p>Gegenstand der Trainingsstudie war die Evaluation des zuvor entwickelten Trainings zur Förderung der problemlösekompetenzorientierten und technologiebasierten Aufgabenerstellung für berufliches/berufsschulisches Ausbildungspersonal. Das Ziel der Erhebung lag in der Bewertung der Wirksamkeit des eingesetzten Trainings auf den Wissens- und Kompetenzzuwachs im Verlauf des Trainings. Im Rahmen der Erhebung wurden Daten zur Sozioökonomie, zur Erfahrungen mit / der Einstellung zu Lernmanagementsystemen, zur Trainingserwartung, zu einem Wissenstest zur problemhaltigen Aufgabenmerkmalen und Gütekriterien, zur Selbsteinschätzung der Medienkompetenz sowie weitere Daten (u. a. Technologieaffinität und Teilnehmerreaktion) erhoben. (Projekt/IQB)</p>
+            <p>Das Projekt „Professionalisierungsmaßnahmen zur bedeutungsfokussierten Sprachförderung im Sachunterricht der Grundschule (ProSach)“ wurde in einem feldexperimentellen Design umgesetzt und gliedert sich in eine Entwicklungsphase, eine Professionalisierungs- und Erprobungsphase sowie eine Evaluationsphase. In der Entwicklungsphase wurde ein impliziter bedeutungsfokussierter Sprachförderansatz, der bereits im additiven Fachunterricht mit Kindern nicht-deutscher Herkunftssprache erprobt wurde, weiterentwickelt. Um die impliziten Sprachförderstrategien aus den Vorgängerprojekten Jacobs-Sommercamp (Stanat, Becker, Baumert, Lüdtke &amp; Eckhardt, 2012) und BeFo (Darsow, Paetsch &amp; Felbrich, 2012; Rösch &amp; Stanat, 2011) für die alltagsintegrierte Anwendung im Sachunterricht der 3. Klassenstufe zu adaptieren, wurden sie um zusätzliche Unterstützungsstrategien der sprachlichen Bewusstmachung erweitert. Dazu werden u. a. curricular valide Lehr- und Lernmaterialien zu ausgewählten Fachinhalten des neuen Rahmenlehrplans für Berlin und Brandenburg entwickelt. In der anschließenden Professionalisierungs- und Erprobungsphase wurden Lehrkräfte über einen Zeitraum von einem Schuljahr bei der Erprobung und Weiterentwicklung von exemplarischen Sprachfördermaterialien in einer von zwei Fortbildungsreihen begleitet: In der Fortbildungsreihe „Fachinhalte“ wurden fachliches und fachdidaktisches Wissen zu ausgewählten Inhalten des Sachunterrichts erworben. Die Fortbildungsreihe diente der Implementation des neuen Rahmenlehrplans im Bereich der fachbezogenen Kompetenzentwicklung. In der Fortbildungsreihe „Fachinhalte und Sprachförderung“ wurden zusätzlich zu den fachlichen Inhalten auch Strategien der impliziten Sprachförderung im Sachunterricht vermittelt. Diese dienten vor allem der Förderung der allgemeinen und fachbezogenen bildungssprachlichen Kompetenzen. (Projekt/IQB)</p>
 
 
-            <p id="Leerdatensaetze" style="text-align: right;"><a href="#zurueckUebersicht">zur&uuml;ck zur &Uuml;bersicht</a></p>
+            <p id="Leerdatensaetze" style="text-align: right;">&nbsp;<a href="#zurueckUebersicht">zur&uuml;ck zur &Uuml;bersicht</a></p>
             <h2 class="tinymce">Leerdatens&auml;tze</h2>
-            <p>Um Ihnen einen ersten &Uuml;berblick der Datens&auml;tze zu vermitteln, haben Sie hier die M&ouml;glichkeit, Leerdatens&auml;tze herunterzuladen.<br /><br /></p>
+            <p>Um Ihnen einen ersten &Uuml;berblick der Datens&auml;tze zu vermitteln, haben Sie hier die M&ouml;glichkeit, Leerdatens&auml;tze herunterzuladen.</p>
             <ul>
-                <li><a href="TeKoP_Quantitati.sav" target="_blank">TeKoP_Quantitative Erprobungsstudie_v1_Leerdaten.sav (SPSS)</a></li>
-                <li><a href="TeKoP_Trainingss.sav" target="_blank">TeKoP_Trainingsstudie_v1_Leerdaten.sav (SPSS)</a></li>
+                <li><a href="ProSach_Eltern_v.sav" target="_blank">ProSach Eltern Leerdatensatz (SPSS)</a></li>
+                <li><a href="ProSach_Fachkrae.sav" target="_blank">ProSach Fachkr&auml;fte Leerdatensatz (SPSS)</a></li>
+                <li><a href="ProSach_Schueler.sav" target="_blank">ProSach Sch&uuml;ler:innen Leerdatensatz (SPSS)</a></li>
             </ul>
             <p id="Dokumentation" style="text-align: right;"><a href="#zurueckUebersicht">zur&uuml;ck zur &Uuml;bersicht</a></p>
             <h2 class="tinymce">Dokumentation</h2>
             <p>Hier finden Sie weiterf&uuml;hrendes Dokumentationsmaterial zur Studie:</p>
             <ul>
-                <li><img title="pdfpic.gif" src="../../pdfpic.gif" alt="PDF" /> <a href="Dokumentation_Qu.pdf" target="_blank">Dokumentation zur quantitativen Erprobungsstudie</a></li>
-                <li><img title="pdfpic.gif" src="../../pdfpic.gif" alt="PDF" /> <a href="Dokumentation_Tr.pdf" target="_blank">Dokumentation zur Trainingsstudie</a></li>
+                <li><img title="pdfpic.gif" src="../../pdfpic.gif" alt="PDF" /> Grewers, E., Becker, B., Heppt, B. &amp; Henschel, S. (2024).<em> Professionalisierungsma&szlig;nahmen zur bedeu</em><em>tungsfokussierten Sprachf&ouml;rderung im Sachunterricht der Grundschule (ProSach). Skalenhandbuch zur</em><br /><em>Dokumentation der Erhebungsinstrumente.</em> Berlin: Forschungsdatenzentrum am Institut zur Qualit&auml;tsentwicklung im Bildungswesen (FDZ am IQB). <a href="240126_Skalenhan.pdf" target="_blank">http://doi.org/10.5159/IQB_ProSach_Skalendokumentation_v1</a></li>
+                <li><img title="pdfpic.gif" src="../../pdfpic.gif" alt="PDF" /> <a href="BMBFFKZ01JI1602A.pdf" target="_blank">Abschlussbericht</a></li>
             </ul>
+            <p>Die einseitige Version erleichtert das Lesen am Bildschirm.</p>
+            <p><img src="ProSach_Handreic.png" alt="" />&nbsp;&nbsp; Cover Illustration: <a href="http://www.ulrikejensen.de/">www.ulrikejensen.de</a></p>
+            <ul>
+                <li><img title="pdfpic.gif" src="../../pdfpic.gif" alt="PDF" /> Gabler, K., Heppt, B., Henschel, S., Hardy, I., Sontag, C., Mannel, S., Hettmannsperger-Lippolt, R. &amp; Stanat, P. (2020). <em>Fachintegrierte Sprachbildung in der Grundschule. &Uuml;berblick </em><em>und Beispiele aus dem Sachunterricht.</em> Berlin: Humboldt-Universit&auml;t zu Berlin.<br /><a href="ProSach_Handreic_1.pdf" target="_blank">https://doi.org/10.5159/IQB_ProSach_Handreichung_Lehrkraefte_v1</a></li>
+            </ul>
+            <p>F&uuml;r die Darstellung der Handreichung, die dem gedruckten Format entspricht, empfehlen wir das Lesen der zweiseitigen Version:</p>
+            <ul>
+                <li><img title="pdfpic.gif" src="../../pdfpic.gif" alt="PDF" /> Gabler, K., Heppt, B., Henschel, S., Hardy, I., Sontag, C., Mannel, S., Hettmannsperger-Lippolt, R. &amp; Stanat, P. (2020). <em>Fachintegrierte Sprachbildung in der Grundschule. &Uuml;berblick </em><em>und Beispiele aus dem Sachunterricht.</em> Berlin: Humboldt-Universit&auml;t zu Berlin. <a href="ProSach_Handreic.pdf" target="_blank">https://doi.org/10.5159/IQB_ProSach_Handreichung_Lehrkraefte_v1</a></li>
+            </ul>
+            <p id="Weiterfuehrende Informationen" style="text-align: right;"><a href="#zurueckUebersicht">zur&uuml;ck zur &Uuml;bersicht</a>&nbsp;</p>
+            <h2 class="tinymce">Weiterf&uuml;hrende Informationen</h2>
+            <p>Weitere Informationen zu der Studie finden Sie <a href="../../research/dm/ProSach" target="_blank">hier</a>.</p>
             <p id="Literatur" style="text-align: right;"><a href="#zurueckUebersicht">zur&uuml;ck zur &Uuml;bersicht</a></p>
-            <p>&nbsp;</p>
             <h2 class="tinymce">Literatur</h2>
-            <p>Eine Auswahl an Publikationen finden Sie in dieser <img title="pdfpic.gif" src="../../pdfpic.gif" alt="PDF" /> <a href="TeKoP_Publikatio.pdf" target="_blank">Literaturliste</a> (Stand 25.08.2023).</p>
+            <p>Eine Auswahl an Publikationen finden Sie in dieser&nbsp;<img title="pdfpic.gif" src="../../pdfpic.gif" alt="PDF" /> <a href="ProSach_Publikat.pdf" target="_blank">Literaturliste </a>(Stand: 11.07.2023).</p>
             <h4 class="tinymce">2023</h4>
-            <p>Wuttke, E., Seeber, S., Schumann, M., Meiners, H., Hartmann, P. &amp; Turhan, L. (2023). <em>Technologiebasiertes kompetenzorientiertes Pr&uuml;fen (TeKoP) </em>(Version 1) [Datensatz]. Berlin: IQB - Institut zur Qualit&auml;tsentwicklung im Bildungswesen. <a href="https://doi.org/10.5159/IQB_TeKoP_v1">https://doi.org/10.5159/IQB_TeKoP_v1</a></p>
-            <p>Wuttke, E., Seeber, S., Schumann, M., Turhan, L., Meiners, H. &amp; Hartmann, P. (2023). <em>Abschlussbericht zum Forschungsprojekt TeKoP (Technologiebasiertes Kompetenzorientiertes Pr&uuml;fen). Gef&ouml;rdert vom BMBF und BIBB, FKZ: 21AP001A und 21AP001B</em> - unver&ouml;ffentlicht.</p>
+            <p>Henschel, S., Hardy, I., Stanat, P., Heppt, B., Gabler, K., Hettmannsperger-Lippolt, R., Sontag, C. &amp; Mannel, S. (2023). <em>Professionalisierungsma&szlig;nahmen zur bedeutungsfokussierten Sprachf&ouml;rderung im Sachunterricht der Grundschule (ProSach) </em>(Version 2) [Datensatz]. Berlin: IQB - Institut zur Qualit&auml;tsentwicklung im Bildungswesen. <a href="https://doi.org/10.5159/IQB_ProSach_v2" target="_blank">https://doi.org/10.5159/IQB_ProSach_v2</a></p>
             <h4 class="tinymce">2022</h4>
-            <p>Meiners, H., Hartmann, P., Niegemann, H., Seeber, Susan, Wuttke, E. &amp; Schumann, M. (2022). Digitale Medienkompetenz als Voraussetzung f&uuml;r die Erstellung von Pr&uuml;fungsaufgaben. In S. Schumann, S. Seeber &amp; S. Abele (Hrsg.), <em>Digitale Transformation in der Berufsbildung. Konzepte, Befunde und Herausforderungen </em>(Wirtschaft - Beruf - Ethik, Bd. 41, S.&nbsp;123&ndash;144). Bielefeld: wbv Media.</p>
-            <p>Seeber, S. &amp; Wuttke, E. (2022). Problemorientierte Lern- und Pr&uuml;fungsaufgaben in der kaufm&auml;nnischen Ausbildung. In G. Cramer (Hrsg.), <em>Ausbilder-Handbuch. Aufgaben, Konzepte, Praxisbeispiele </em>(Bd. 259, Absatz 5.4.3.3). K&ouml;ln: Dt. Wirtschaftsdienst.</p>
-            <p>Seeber, S. &amp; Wuttke, E. (2022). Technologiebasierte, problemorientierte Lern- und Pr&uuml;fungsaufgaben entwickeln. <em>Bildung und Beruf</em>, <em>5, </em>310&ndash;312.</p>
-            <p>Wuttke, E., Seeber, S., Geiser, C. &amp; Turhan, L. (2022). Zur Problemhaltigkeit von Aufgaben in kaufm&auml;nnischen Abschluss- und Zwischenpr&uuml;fungen - Ergebnisse aus Aufgabenanalysen. <em>Zeitschrift f&uuml;r Berufs- und Wirtschaftsp&auml;dagogik</em>, <em>118</em>(1), 25&ndash;52.</p>
+            <div class="moz-cite-prefix">Heppt, B., Henschel, S., Hardy, I. &amp; Gabler, K. (2022). Instructional support in inquiry-based elementary school science classes: how does it relate to students&rsquo; science content knowledge and academic language proficiency? <em>European Journal of Psychology of Education</em>. <a class="moz-txt-link-freetext" href="https://doi.org/10.1007/s10212-022-00653-6">https://doi.org/10.1007/s10212-022-00653-6 </a></div>
+            <p>Heppt, B., Henschel, S., Hardy, I., Hettmannsperger-Lippolt, R., Gabler, K., Sontag, C., Mannel, S. &amp; Stanat, P. (2022). Professional development for language support in science classrooms: Evaluating effects for elementary school teachers. <em>Teaching and Teacher Education</em>, <em>109, </em>103518. <a href="https://doi.org/10.1016/j.tate.2021.103518">https://doi.org/10.1016/j.tate.2021.103518</a></p>
             <h4 class="tinymce">2021</h4>
-            <p>Abele, S., Deutscher, V., Nickolaus, R., Rausch, A., Seeber, S. &amp; Sembill, D. (2021). Potenziale technologiebasierter Kompetenztests der ASCOT-Initiative aus der Perspektive der Curriculum-Instruction-Assessment-Triade. In K. Beck &amp; F. Oser (Hrsg.), <em>Resultate und Probleme der Berufsbildungsforschung. Festschrift f&uuml;r Susanne Weber </em>(S.&nbsp;13&ndash;41). Bielefeld: wbv.</p>
-            <p>Niegemann, H., Wuttke, E., Seeber, S. &amp; Schumann, M. (2021). &Uuml;berlegungen zur Gestaltung von technologiebasierten und komplexen Aufgaben in kaufm&auml;nnischen Abschlusspr&uuml;fungen. <em>Berufsbildung. Zeitschrift f&uuml;r Theorie-Praxis-Dialog</em>, (187), 16&ndash;19.</p>
-            <p>Seeber, S. &amp; Greiwe, C. (2021). Entwicklung und computerbasierte Umsetzung von Probleml&ouml;seaufgaben f&uuml;r die kaufm&auml;nnische Ausbildung: Hintergrund und ziele eines Trainingskonzepts f&uuml;r Pr&uuml;ferinnen und Pr&uuml;fer. In R. Emmermann, S. Fastenrath &amp; T. Spalke (Hrsg.), <em>digital unterrichten. Praxisnah - toolbasiert - innovativ </em>(Bibliothek der Schulpraxis, S.&nbsp;43&ndash;47). Haan-Gruiten: Europa-Lehrmittel.</p>
+            <p>Henschel, S. (2021). Antecedents of science anxiety in elementary school. <em>The Journal of Educational Research, 114</em>, 263-277. <a class="moz-txt-link-freetext" href="https://doi.org/10.1080/00220671.2021.1922989">https://doi.org/10.1080/00220671.2021.1922989</a></p>
+            <h4 class="tinymce">2020</h4>
+            <p>Gabler, K., Heppt, B., Henschel, S., Hardy, I., Sontag, C., Mannel, S., Hettmannsperger-Lippolt, R., Stanat, P., Humboldt-Universit&auml;t zu Berlin, Institut zur Qualit&auml;tsentwicklung im Bildungswesen &amp; Goethe-Universit&auml;t Frankfurt am Main (2020). <em>Fachintegrierte Sprachbildung in der Grundschule. &Uuml;berblick und Beispiele aus dem Sachunterricht</em>. Berlin. <a href="https://doi.org/10.5159/IQB_ProSach_Handreichung_Lehrkraefte_v1">https://doi.org/10.5159/IQB_ProSach_Handreichung_Lehrkraefte_v1</a></p>
+            <p>Gabler, K., Mannel, S., Hardy, I., Henschel, S., Heppt, B., Hettmannsperger-Lippolt, R., Sontag, C. &amp; Stanat, P. (2020). Fachintegrierte Sprachf&ouml;rderung im Sachunterricht der Grundschule: Entwicklung, Erprobung und Evaluation eines Fortbildungskonzepts auf der Grundlage des Scaffolding-Ansatzes. In C. Titz, S. Geyer, A. Ropeter, H. Wagner &amp; S. Weber (Hrsg.), <em>Sprach- und Schriftsprachf&ouml;rderung wirksam gestalten: Innovative Konzepte und Forschungsimpulse </em>(S.&nbsp;59&ndash;83). Stuttgart: Kohlhammer.</p>
+            <p>Heppt, B., Henschel, S., Hettmannsperger-Lippolt, R., Sontag, C., Gabler, K., Hardy, I., Stanat, P. &amp; Mannel, S. (2020). Erfassung und Bedeutung des Fachwortschatzes im Sachunterricht der Grundschule. In C. Titz, S. Geyer, A. Ropeter, H. Wagner &amp; S. Weber (Hrsg.), <em>Sprach- und Schriftsprachf&ouml;rderung wirksam gestalten: Innovative Konzepte und Forschungsimpulse </em>(S.&nbsp;84&ndash;109). Stuttgart: Kohlhammer.</p>
+            <p>Hettmannsperger, R., Gabler, K., Mannel, S., Hardy, I., Henschel, S., Heppt, B., Sontag, C. &amp; Stanat, P. (2020). Professionalisierung von Lehrkr&auml;ften zur bedeutungsfokussierten Sprachf&ouml;rderung im Sachunterricht der Grundschule: Das Projekt ProSach. In N. Skorsetz, M. Bonanati &amp; D. Kucharz (Hrsg.), <em>Diversit&auml;t und soziale Ungleichheit: Herausforderungen an die Integrationsleistung der Grundschule </em>(S.&nbsp;330&ndash;334). Wiesbaden: Springer VS.</p>
+            <p>Hettmannsperger, R., Hardy, I., Mannel, S. &amp; Gabler, K. (2020). Bildung f&uuml;r nachhaltige Entwicklung: Wie kann die Auseinandersetzung mit komplexen gesellschaftlichen Fragen in der Grundschule gestaltet werden? In H. Kminek, F. Bank &amp; I. Fuchs (Hrsg.), <em>Kontroverses Miteinander: Interdisziplin&auml;re und kontroverse Positionen zur Bildung f&uuml;r eine nachhaltige Entwicklung. </em>(Frankfurter Beitr&auml;ge zur Erziehungswissenschaft ). Frankfurt am Main.</p>
+            <h4 class="tinymce">2019</h4>
+            <p>Hardy, I., Hettmannsperger, R. &amp; Gabler, K. (2019). Sprachliche Bildung im Fachunterricht: Theoretische Grundlagen und F&ouml;rderans&auml;tze. In J. Ziehm, B. Voet Cornelli, B. Menzel &amp; M. Gro&szlig;mann (Hrsg.), <em>Schule migrationssensibel gestalten. Impulse f&uuml;r die Praxis </em>(S.&nbsp;31&ndash;61). Weinheim, Basel: Beltz.</p>
+            <p>Sontag, C., Gabler, K. &amp; Hettmannsperger, R. (2019). ProSach: Professionalisierungsma&szlig;nahmen zur bedeutungsfokussierten Sprachf&ouml;rderung im Sachunterricht der Grundschule. <em>BiSS-Journal</em>, (10), 22&ndash;26.</p>
+            <p>Sontag, C., Gabler, K., Hettmannsperger, R., Hardy, I., Henschel, S., Heppt, B., Mannel, S. &amp; Stanat, P. (2019). Professionalisierungsma&szlig;nahmen zur bedeutungsfokussierten Sprachf&ouml;rderung im Sachunterricht der Grundschule (ProSach). In BiSS-Tr&auml;gerkonsortium (Hrsg.), <em>Projektatlas BiSS-Entwicklungsprojekte. Ergebnisse und Empfehlungen </em>(S.&nbsp;27&ndash;36). K&ouml;ln: Mercator-Institut f&uuml;r Sprachf&ouml;rderung und Deutsch als Zweitsprache.</p>
             <p style="text-align: right;"><a href="#zurueckUebersicht">zur&uuml;ck zur &Uuml;bersicht</a></p>
 
 
@@ -1049,7 +1065,7 @@
         <div id="linkboxes" class="column3">
             <div class="teaser-wrapper">
                 <a class="save-pdf" style="display:none;" href="javascript:alert('PDF speichern')">PDF Speichern</a>
-                <a class="print" target="_blank" href="/fdz/studies/TeKoP_ASCOT?view=p">Druckansicht</a>
+                <a class="print" target="_blank" href="/fdz/studies/ProSach?view=p">Druckansicht</a>
 
                 <br class="clear" />
             </div>
@@ -1076,9 +1092,9 @@
 													<ul class="subnavi-mobile lvl2">
 
 															<li class="active">
-																<a class="subnavigation-mobile-link applink" href="/fdz/studies/TeKoP_ASCOT">
+																<a class="subnavigation-mobile-link applink" href="/fdz/studies/ProSach">
 																											<span class="chevron bottom"></span>
-																											<span class="label">TeKoP</span>
+																											<span class="label">ProSach</span>
 
 					</a>
 

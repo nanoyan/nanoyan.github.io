@@ -1,7 +1,6 @@
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
 <meta charset="UTF-8">
 <!-- Meta-tags-->
 <meta name=author content="Forschungsdatenzentrum (FDZ) am Institut zur Qualitätsentwicklung im Bildungswesen (IQB) / Research Data Centre (FDZ) at the Institute for Educational Quality Improvement (IQB)" />
@@ -84,7 +83,7 @@
   {
     "@type": "PropertyValue",
     "name": "berufliche Handlungskompetenz",
-    "subjectOf": {
+    "subjetOf": {
       "type": "DefinedTerm",
       "hasDefinedTerm": [
       {
@@ -95,11 +94,10 @@
         "@id": "https://w3id.org/iqb/v87/ca/c99",
         "@type": "DefinedTerm",
         "@identifier": "https://w3id.org/iqb/v87/ca/c99",
-        "name": "Handlungskompetenz",
+        "name": "https://w3id.org/iqb/v87/ca/c99",
         "url": "https://skohub.io/iqb-vocabs/v87/heads/master/w3id.org/iqb/v87/ca/c99.html"
       }
       ]
-    }
   }],
   "distribution": [
   {
@@ -110,18 +108,31 @@
   {
     "@type": "DataDownload",
     "encodingFormat": "text/pdf",
-    "contentUrl": "//www.iqb.hu-berlin.de/fdz/studies/TeKoP_ASCOT/Dokumentation_Qu.pdf"
+    "contentUrl": "https://www.iqb.hu-berlin.de/fdz/studies/TeKoP_ASCOT/Dokumentation_Qu.pdf"
   },
   {
     "@type": "DataDownload",
     "encodingFormat": "application/octet-stream",
     "contentUrl": "https://www.iqb.hu-berlin.de/fdz/studies/TeKoP_ASCOT/TeKoP_Quantitati.sav"
   }],
-  "size": {
+  "size": [
+  {
+    "@type": "QuantitativeValue",
+    "minValue": 45692,
+    "maxValue": 655944,
+    "unitText": "AD"
+  },
+  {
+    "@type": "QuantitativeValue",
+    "minValue": 45692,
+    "maxValue": 655944,
+    "unitCode": "AD"
+  },
+  {
     "@type": "QuantitativeValue",
     "value": 655944,
-    "unitText": "data points"
-  },
+    "unitText": "AD"
+  }],
   "headline": "Technologiebasiertes kompetenzorientiertes Prüfen (TeKoP)",
   "datePublished": "2023-8-25T08:00:00+08:00",
   "dateModified": "2023-8-25T08:00:00+08:00",
